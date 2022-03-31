@@ -1,22 +1,26 @@
 # [MAXIM](https://arxiv.org/abs/2201.02973): Multi-Axis MLP for Image Processing (CVPR 2022 Oral)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-gopro)](https://paperswithcode.com/sota/deblurring-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-realblur-j-1)](https://paperswithcode.com/sota/deblurring-on-realblur-j-1?p=maxim-multi-axis-mlp-for-image-processing)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-realblur-r)](https://paperswithcode.com/sota/deblurring-on-realblur-r?p=maxim-multi-axis-mlp-for-image-processing)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-realblur-j-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-realblur-j-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-realblur-r-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-realblur-r-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/low-light-image-enhancement-on-lol)](https://paperswithcode.com/sota/low-light-image-enhancement-on-lol?p=maxim-multi-axis-mlp-for-image-processing)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/photo-retouching-on-mit-adobe-5k)](https://paperswithcode.com/sota/photo-retouching-on-mit-adobe-5k?p=maxim-multi-axis-mlp-for-image-processing)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/single-image-deraining-on-rain100h)](https://paperswithcode.com/sota/single-image-deraining-on-rain100h?p=maxim-multi-axis-mlp-for-image-processing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/single-image-deraining-on-rain100l)](https://paperswithcode.com/sota/single-image-deraining-on-rain100l?p=maxim-multi-axis-mlp-for-image-processing)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-realblur-r)](https://paperswithcode.com/sota/deblurring-on-realblur-r?p=maxim-multi-axis-mlp-for-image-processing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/single-image-deraining-on-test100)](https://paperswithcode.com/sota/single-image-deraining-on-test100?p=maxim-multi-axis-mlp-for-image-processing)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/image-denoising-on-sidd)](https://paperswithcode.com/sota/image-denoising-on-sidd?p=maxim-multi-axis-mlp-for-image-processing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/single-image-deraining-on-test2800)](https://paperswithcode.com/sota/single-image-deraining-on-test2800?p=maxim-multi-axis-mlp-for-image-processing)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-realblur-j-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-realblur-j-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/image-denoising-on-dnd)](https://paperswithcode.com/sota/image-denoising-on-dnd?p=maxim-multi-axis-mlp-for-image-processing)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-realblur-r-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-realblur-r-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/single-image-deraining-on-test1200)](https://paperswithcode.com/sota/single-image-deraining-on-test1200?p=maxim-multi-axis-mlp-for-image-processing)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-gopro)](https://paperswithcode.com/sota/deblurring-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/image-denoising-on-sidd)](https://paperswithcode.com/sota/image-denoising-on-sidd?p=maxim-multi-axis-mlp-for-image-processing)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/image-denoising-on-dnd)](https://paperswithcode.com/sota/image-denoising-on-dnd?p=maxim-multi-axis-mlp-for-image-processing)
 
 
-This repo is the official implementation of [CVPR 2022] paper: ["**MAXIM**: Multi-Axis MLP for Image Processing"](https://arxiv.org/abs/2201.02973) by [Zhengzhong Tu](https://www.linkedin.com/in/vztu/), [Hossein Talebi](https://scholar.google.com/citations?hl=en&user=UOX9BigAAAAJ), [Han Zhang](https://sites.google.com/view/hanzhang), [Feng Yang](https://sites.google.com/view/feng-yang), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/), [Alan Bovik](https://www.ece.utexas.edu/people/faculty/alan-bovik), and [Yinxiao Li](https://scholar.google.com/citations?user=kZsIU74AAAAJ&hl=en)
+This repo is the official implementation of [**CVPR 2022 Oral**] paper: ["**MAXIM**: Multi-Axis MLP for Image Processing"](https://arxiv.org/abs/2201.02973) by [Zhengzhong Tu](https://www.linkedin.com/in/vztu/), [Hossein Talebi](https://scholar.google.com/citations?hl=en&user=UOX9BigAAAAJ), [Han Zhang](https://sites.google.com/view/hanzhang), [Feng Yang](https://sites.google.com/view/feng-yang), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/), [Alan Bovik](https://www.ece.utexas.edu/people/faculty/alan-bovik), and [Yinxiao Li](https://scholar.google.com/citations?user=kZsIU74AAAAJ&hl=en)
 
 Google Research, University of Texas at Austin
 
@@ -63,28 +67,28 @@ You can also download most of the training and test datasets we used on [gcloud]
 
 ## Demo
 
-First download corresponding checkpoints and then go ahead:
+First download corresponding checkpoints and then go ahead and run:
 
 <details>
-<summary><strong>Image Denoising</strong> (click to expand) <summary>
+  <summary><strong>Image Denoising</strong> (click to expand) </summary>
 
 ```
 python3 maxim/run_eval.py --task Denoising --ckpt_path ${SIDD_CKPT_PATH} \
   --input_dir maxim/images/Denoising --output_dir maxim/images/Results --has_target=False
 ```
-<details>
+</details>
 
 <details>
-<summary><strong>Image Deblurring</strong> (click to expand) <summary>
+  <summary><strong>Image Deblurring</strong> (click to expand) </summary>
 
 ```
 python3 maxim/run_eval.py --task Deblurring --ckpt_path ${GOPRO_CKPT_PATH} \
   --input_dir maxim/images/Deblurring --output_dir maxim/images/Results --has_target=False
 ```
-<details>
+</details>
 
 <details>
-<summary><strong>Image Deraining</strong> (click to expand) <summary>
+  <summary><strong>Image Deraining</strong> (click to expand) </summary>
 
 Rain streak:
 ```
@@ -97,10 +101,10 @@ Rain drop:
 python3 maxim/run_eval.py --task Deraining --ckpt_path ${RAINDROP_CKPT_PATH} \
   --input_dir maxim/images/Deraining --output_dir maxim/images/Results --has_target=False
 ```
-<details>
+</details>
 
 <details>
-<summary><strong>Image Dehazing</strong> (click to expand) <summary>
+  <summary><strong>Image Dehazing</strong> (click to expand) </summary>
 
 Indoor:
 ```
@@ -113,10 +117,10 @@ Outdoor:
 python3 maxim/run_eval.py --task Dehazing --ckpt_path ${REDISE_OUTDOOR_CKPT_PATH} \
   --input_dir maxim/images/Dehazing --output_dir maxim/images/Results --has_target=False
 ```
-<details>
+</details>
 
 <details>
-<summary><strong>Image Enhancement</strong> (click to expand) <summary>
+  <summary><strong>Image Enhancement</strong> (click to expand) </summary>
 
 Low-light enhancement:
 ```
@@ -129,18 +133,18 @@ Retouching:
 python3 maxim/run_eval.py --task Dehazing --ckpt_path ${FIVEK_CKPT_PATH} \
   --input_dir maxim/images/Enhancement --output_dir maxim/images/Results --has_target=False
 ```
-<details>
+</details>
 
 ## Results
 
 <details>
-<summary><strong>Image Denoising</strong> (click to expand) <summary>
+  <summary><strong>Image Denoising</strong> (click to expand) </summary>
 
 <img src = "https://user-images.githubusercontent.com/43280278/149262475-a73668f2-9fe1-4374-8ed3-4831acca8052.png" width="400">
-<details>
+</details>
 
 <details>
-<summary><strong>Image Deblurring</strong> (click to expand) <summary>
+<summary><strong>Image Deblurring</strong> (click to expand) </summary>
 
 <table>
   <tr>
@@ -152,10 +156,10 @@ python3 maxim/run_eval.py --task Dehazing --ckpt_path ${FIVEK_CKPT_PATH} \
     <td><p align="center"><b>Realistic blur</b></p></td>
   </tr>
 </table>
-<details>
+</details>
 
 <details>
-<summary><strong>Image Deraining</strong> (click to expand) <summary>
+<summary><strong>Image Deraining</strong> (click to expand) </summary>
 
 <table>
   <tr>
@@ -167,19 +171,19 @@ python3 maxim/run_eval.py --task Dehazing --ckpt_path ${FIVEK_CKPT_PATH} \
     <td><p align="center"><b>Rain drop</b></p></td>
   </tr>
 </table>
-<details>
+</details>
 
 <details>
-<summary><strong>Image Dehazing</strong> (click to expand) <summary>
+<summary><strong>Image Dehazing</strong> (click to expand) </summary>
 
 <img src = "https://user-images.githubusercontent.com/43280278/149261947-22954827-ce62-44e8-974a-0aa8d94a4bd9.png"  width="250">
-<details>
+</details>
 
 <details>
-<summary><strong>Image Enhancement</strong> (click to expand) <summary>
+<summary><strong>Image Enhancement</strong> (click to expand) </summary>
 
 <img src = "https://user-images.githubusercontent.com/43280278/149262540-77d16592-9305-4fd7-80c6-b9d30000cc29.png" width="400">
-<details>
+</details>
 
 ## Citation
 Should you find this repository useful, please consider citing:
