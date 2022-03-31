@@ -37,8 +37,10 @@ flags.DEFINE_enum(
 flags.DEFINE_string('ckpt_path', '', 'Path to checkpoint.')
 flags.DEFINE_string('input_dir', '', 'Input dir to the test set.')
 flags.DEFINE_string('output_dir', '', 'Output dir to store predicted images.')
-flags.DEFINE_bool('save_images', True, 'Dump predicted images.')
-flags.DEFINE_bool('geometric_ensemble', False, 'Whether use ensemble infernce.')
+flags.DEFINE_boolean('has_target', True, 'Whether has corresponding gt image.')
+flags.DEFINE_boolean('save_images', True, 'Dump predicted images.')
+flags.DEFINE_boolean('geometric_ensemble', False,
+                     'Whether use ensemble infernce.')
 
 _MODEL_FILENAME = 'maxim'
 
@@ -328,11 +330,12 @@ def main(_):
       for x in filepath
       if is_image_file(x)
   ]
-  target_filenames = [
-      os.path.join(FLAGS.input_dir, 'target', x)
-      for x in filepath
-      if is_image_file(x)
-  ]
+  if FLAGS.has_target:
+    target_filenames = [
+        os.path.join(FLAGS.input_dir, 'target', x)
+        for x in filepath
+        if is_image_file(x)
+    ]
   num_images = len(input_filenames)
 
   model_mod = importlib.import_module(f'maxim.models.{_MODEL_FILENAME}')
@@ -343,13 +346,14 @@ def main(_):
   psnr_all = []
 
   def _process_file(i):
-    print(f'Processing {i} / {num_images}...')
-    input_file, target_file = input_filenames[i], target_filenames[i]
-
+    print(f'Processing {i + 1} / {num_images}...')
+    input_file = input_filenames[i]
     input_img = np.asarray(Image.open(input_file).convert('RGB'),
                            np.float32) / 255.
-    target_img = np.asarray(Image.open(target_file).convert('RGB'),
-                            np.float32) / 255.
+    if FLAGS.has_target:
+      target_file = target_filenames[i]
+      target_img = np.asarray(Image.open(target_file).convert('RGB'),
+                              np.float32) / 255.
 
     # Padding images to have even shapes
     height, width = input_img.shape[0], input_img.shape[1]
@@ -386,9 +390,12 @@ def main(_):
     preds = preds[h_start:h_end, w_start:w_end, :]
 
     # print PSNR scores
-    psnr = calculate_psnr(
-        target_img * 255., preds * 255., crop_border=0, test_y_channel=False)
-    print(f'{i}th image: psnr = {psnr:.4f}')
+    if FLAGS.has_target:
+      psnr = calculate_psnr(
+          target_img * 255., preds * 255., crop_border=0, test_y_channel=False)
+      print(f'{i}th image: psnr = {psnr:.4f}')
+    else:
+      psnr = -1
 
     # save files
     basename = os.path.basename(input_file)
