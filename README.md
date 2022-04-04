@@ -43,6 +43,12 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+Setup project:
+
+```
+pip install .
+```
+
 ## Results and Pre-trained models
 
 We provide all the pre-trained models and visual results.
@@ -130,7 +136,7 @@ python3 maxim/run_eval.py --task Enhancement --ckpt_path ${LOL_CKPT_PATH} \
 
 Retouching:
 ```
-python3 maxim/run_eval.py --task Dehazing --ckpt_path ${FIVEK_CKPT_PATH} \
+python3 maxim/run_eval.py --task Enhancement --ckpt_path ${FIVEK_CKPT_PATH} \
   --input_dir maxim/images/Enhancement --output_dir maxim/images/Results --has_target=False
 ```
 </details>
@@ -198,4 +204,4 @@ Should you find this repository useful, please consider citing:
 
 ## Acknowledgement
 
-This repository is built on the [vision_transformer](https://github.com/google-research/vision_transformer) and [musiq](https://github.com/google-research/google-research/tree/master/musiq) repositories. Our work is also inspired by [HiT](https://github.com/google-research/hit-gan) [MPRNet](https://github.com/swz30/MPRNet) and [HINet](https://github.com/megvii-model/HINet).
+This repository is built on the [vision_transformer](https://github.com/google-research/vision_transformer) and [musiq](https://github.com/google-research/google-research/tree/master/musiq) repositories. Our work is also inspired by [HiT](https://github.com/google-research/hit-gan), [MPRNet](https://github.com/swz30/MPRNet), and [HINet](https://github.com/megvii-model/HINet).
