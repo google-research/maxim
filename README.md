@@ -69,7 +69,7 @@ We provide all the pre-trained models and visual results.
 | Enhancement | LOL | 23.43 | 0.863 | MAXIM-2S | 14.1M | 216G | [ckpt](https://console.cloud.google.com/storage/browser/gresearch/maxim/ckpt/Enhancement/LOL) | [images](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Enhancement/LOL/) |
 | Enhancement | FiveK | 26.15 | 0.945 | MAXIM-2S | 14.1M  |  216G | [ckpt](https://console.cloud.google.com/storage/browser/gresearch/maxim/ckpt/Enhancement/FiveK) | [images](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Enhancement/FiveK/) |
 
-You can also download most of the training and test datasets we used on [gcloud](https://console.cloud.google.com/storage/browser/gresearch/maxim/datasets/).
+<!-- You can also download most of the training and test datasets we used on [gcloud](https://console.cloud.google.com/storage/browser/gresearch/maxim/datasets/). -->
 
 ## Demo
 
