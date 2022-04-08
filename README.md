@@ -54,7 +54,7 @@ pip install .
 We provide the pre-trained models and visual results.
 Please contact us if you have any questions or requests.
 
-| Task | Dataset | PSRN | SSIM | Model | #params | FLOPs | ckpt | outputs |
+| Task | Dataset | PSNR | SSIM | Model | #params | FLOPs | ckpt | outputs |
 |:---:|:---:|:---:|:---:| :---:|:---:|:---:|:---:|:---:|
 | Denoising | SIDD | 39.96 | 0.960 | MAXIM-3S | 22.2M | 339G | [ckpt](https://console.cloud.google.com/storage/browser/gresearch/maxim/ckpt/Denoising/SIDD/) | images<!--(https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/)--> |
 | Denoising | DND  | 39.84 | 0.954 | MAXIM-3S | 22.2M | 339G | [ckpt](https://console.cloud.google.com/storage/browser/gresearch/maxim/ckpt/Denoising/SIDD/) | [images](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/DND/) |
