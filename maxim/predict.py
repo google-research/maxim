@@ -1,3 +1,6 @@
+import os
+os.environ["XLA_FLAGS"] = "--xla_gpu_force_compilation_parallelism=1"
+
 import subprocess
 subprocess.call(["pip", "install", "."])
 
