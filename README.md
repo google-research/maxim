@@ -74,6 +74,8 @@ Please contact us if you have any questions or requests.
 
 ## Demo
 
+Try the web demo for Image Denoising, Deblurring, Deraining, Dehazing and Enhancement here [![Replicate](https://replicate.com/google-research/maxim/badge)](https://replicate.com/google-research/maxim)
+
 First download corresponding checkpoints and then go ahead and run:
 
 <details>
