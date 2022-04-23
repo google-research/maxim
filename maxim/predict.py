@@ -29,8 +29,17 @@ class Predictor(BasePredictor):
 
         self.params = {
             "Image Denoising": get_params("checkpoints/denoising-SIDD/checkpoint.npz"),
-            "Image Deblurring": get_params(
+            "Image Deblurring (GoPro)": get_params(
                 "checkpoints/debluring-GoPro/checkpoint.npz"
+            ),
+            "Image Deblurring (REDS)": get_params(
+                "checkpoints/debluring-REDS/checkpoint.npz"
+            ),
+            "Image Deblurring (RealBlur_R)": get_params(
+                "checkpoints/debluring-Real-Blur-R/checkpoint.npz"
+            ),
+            "Image Deblurring (RealBlur_J)": get_params(
+                "checkpoints/debluring-Real-Blur-J/checkpoint.npz"
             ),
             "Image Deraining (Rain streak)": get_params(
                 "checkpoints/deraining-Rain13k/checkpoint.npz"
@@ -64,7 +73,10 @@ class Predictor(BasePredictor):
         model: str = Input(
             choices=[
                 "Image Denoising",
-                "Image Deblurring",
+                "Image Deblurring (GoPro)",
+                "Image Deblurring (REDS)",
+                "Image Deblurring (RealBlur_R)",
+                "Image Deblurring (RealBlur_J)",
                 "Image Deraining (Rain streak)",
                 "Image Deraining (Rain drop)",
                 "Image Dehazing (Indoor)",
@@ -72,7 +84,6 @@ class Predictor(BasePredictor):
                 "Image Enhancement (Low-light)",
                 "Image Enhancement (Retouching)",
             ],
-            default="Image Debluring",
             description="Choose a model.",
         ),
         image: Path = Input(
