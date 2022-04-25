@@ -72,6 +72,11 @@ Please contact us if you have any questions or requests.
 
 <!-- You can also download most of the training and test datasets we used on [gcloud](https://console.cloud.google.com/storage/browser/gresearch/maxim/datasets/). -->
 
+
+## Web Demo
+Try the web demo for Image Denoising, Deblurring, Deraining, Dehazing and Enhancement with customised input image here [![Replicate](https://replicate.com/google-research/maxim/badge)](https://replicate.com/google-research/maxim)
+
+
 ## Demo
 
 First download corresponding checkpoints and then go ahead and run:
