@@ -1,5 +1,3 @@
-# [MAXIM](https://arxiv.org/abs/2201.02973): Multi-Axis MLP for Image Processing (CVPR 2022 Oral)
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-gopro)](https://paperswithcode.com/sota/deblurring-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-realblur-j-1)](https://paperswithcode.com/sota/deblurring-on-realblur-j-1?p=maxim-multi-axis-mlp-for-image-processing)
@@ -19,17 +17,39 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/image-denoising-on-sidd)](https://paperswithcode.com/sota/image-denoising-on-sidd?p=maxim-multi-axis-mlp-for-image-processing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/image-denoising-on-dnd)](https://paperswithcode.com/sota/image-denoising-on-dnd?p=maxim-multi-axis-mlp-for-image-processing)
 
+# MAXIM: Multi-Axis MLP for Image Processing (CVPR 2022 Oral, Best Paper Nomination)
 
-This repo is the official implementation of [**CVPR 2022 Oral**] paper: ["**MAXIM**: Multi-Axis MLP for Image Processing"](https://arxiv.org/abs/2201.02973) by [Zhengzhong Tu](https://www.linkedin.com/in/vztu/), [Hossein Talebi](https://scholar.google.com/citations?hl=en&user=UOX9BigAAAAJ), [Han Zhang](https://sites.google.com/view/hanzhang), [Feng Yang](https://sites.google.com/view/feng-yang), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/), [Alan Bovik](https://www.ece.utexas.edu/people/faculty/alan-bovik), and [Yinxiao Li](https://scholar.google.com/citations?user=kZsIU74AAAAJ&hl=en)
+[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2201.02973)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-research/maxim/blob/master/colab_inference_demo.ipynb)
+[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://docs.google.com/presentation/d/136JtmujpH0zoKYn-zAjuVg5XQ-mwGaQi5giEvMVyOqQ/edit?usp=sharing)
+[![Poster](https://img.shields.io/badge/Poster-Slide-87CEEB)](https://docs.google.com/presentation/d/1uteitiZnrhuBvdneWjye7DJEP3iyQgLThT_As8Fjtig/edit?usp=sharing)
 
+This repo hosts the official implementation of the MAXIM models: 
+
+["MAXIM: Multi-Axis MLP for Image Processing"](https://arxiv.org/abs/2201.02973). CVPR 2022 Oral.\
+[Zhengzhong Tu](https://www.linkedin.com/in/vztu/), [Hossein Talebi](https://scholar.google.com/citations?hl=en&user=UOX9BigAAAAJ), [Han Zhang](https://sites.google.com/view/hanzhang), [Feng Yang](https://sites.google.com/view/feng-yang), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/), [Alan Bovik](https://www.ece.utexas.edu/people/faculty/alan-bovik), and [Yinxiao Li](https://scholar.google.com/citations?user=kZsIU74AAAAJ&hl=en)\
 Google Research, University of Texas at Austin
 
 *Disclaimer: This is not an officially supported Google product.*
 
-<hr />
+**News**:
 
-> **Abstract:** *Recent progress on Transformers and multi-layer perceptron (MLP) models provide new network architectural designs for computer vision tasks. Although these models proved to be effective in many vision tasks such as image recognition, there remain challenges in adapting them for low-level vision. The inflexibility to support high-resolution images and limitations of local attention are perhaps the main bottlenecks. In this work, we present a multi-axis MLP based architecture called MAXIM, that can serve as an efficient and flexible general-purpose vision backbone for image processing tasks. MAXIM uses a UNet-shaped hierarchical structure and supports long-range interactions enabled by spatially-gated MLPs. Specifically, MAXIM contains two MLP-based building blocks: a multi-axis gated MLP that allows for efficient and scalable spatial mixing of local and global visual cues, and a cross-gating block, an alternative to cross-attention, which accounts for cross-feature conditioning. Both these modules are exclusively based on MLPs, but also benefit from being both global and `fully-convolutional', two properties that are desirable for image processing. Our extensive experimental results show that the proposed MAXIM model achieves state-of-the-art performance on more than ten benchmarks across a range of image processing tasks, including denoising, deblurring, deraining, dehazing, and enhancement while requiring fewer or comparable numbers of parameters and FLOPs than competitive models.*
-<hr />
+- Oct 21, 2022: MAXIM models have been ported to Tensorflow by [@sayakpaul](https://github.com/sayakpaul). Check it out here: [maxim-tf](https://github.com/sayakpaul/maxim-tf)
+- Sep 8, 2022: our Google AI blog covering both [MaxViT](https://arxiv.org/abs/2204.01697) and [MAXIM](https://github.com/google-research/maxim) is [live](https://ai.googleblog.com/2022/09/a-multi-axis-approach-for-vision.html).
+- Apr 25, 2022: Added demos.
+  - Colab demo by [@deshwalmahesh](https://github.com/deshwalmahesh) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-research/maxim/blob/master/colab_inference_demo.ipynb)
+  - Replicate web demo [![Replicate](https://replicate.com/google-research/maxim/badge)](https://replicate.com/google-research/maxim).
+- Jun 22, 2022: MAXIM selected as 1 of the best paper nomination!
+- Mar 29, 2022: MAXIM selected for an oral presentation at CVPR 2022!
+- Mar 28, 2022: initial push to Github.
+- Mar 3, 2022: paper accepted to CVPR 2022!
+- Jan 9, 2022: initial uploads to [Arxiv](https://arxiv.org/abs/2201.02973)
+
+## Quick Demos
+Try the web demo for Image Denoising, Deblurring, Deraining, Dehazing and Enhancement with customized input image here [![Replicate](https://replicate.com/google-research/maxim/badge)](https://replicate.com/google-research/maxim)
+
+Try the Colab here using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-research/maxim/blob/master/colab_inference_demo.ipynb)
+
 
 ## Architecture
 
@@ -71,9 +91,6 @@ Please contact us if you have any questions or requests.
 | Enhancement | FiveK | 26.15 | 0.945 | MAXIM-2S | 14.1M  |  216G | [ckpt](https://console.cloud.google.com/storage/browser/gresearch/maxim/ckpt/Enhancement/FiveK) | [images](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Enhancement/FiveK/) |
 
 <!-- You can also download most of the training and test datasets we used on [gcloud](https://console.cloud.google.com/storage/browser/gresearch/maxim/datasets/). -->
-
-## Web Demo
-Try the web demo for Image Denoising, Deblurring, Deraining, Dehazing and Enhancement with customised input image here [![Replicate](https://replicate.com/google-research/maxim/badge)](https://replicate.com/google-research/maxim)
 
 ## Demo
 
