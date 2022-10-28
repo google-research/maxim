@@ -41,6 +41,7 @@ Google Research, University of Texas at Austin
   * [Dehazing indoors](https://huggingface.co/spaces/sayakpaul/sots-indoor-dehazing-maxim)
   * [Dehazing outdoors](https://huggingface.co/spaces/sayakpaul/sots-outdoor-dehazing-maxim)
   * [Image deraining](https://huggingface.co/spaces/sayakpaul/rain13k-deraining-maxim)
+  * [Image deblurring](https://huggingface.co/spaces/sayakpaul/gopro-deblurring-maxim)
 - Sep 8, 2022: our Google AI blog covering both [MaxViT](https://arxiv.org/abs/2204.01697) and [MAXIM](https://github.com/google-research/maxim) is [live](https://ai.googleblog.com/2022/09/a-multi-axis-approach-for-vision.html).
 - Apr 25, 2022: Added demos.
   - Colab demo by [@deshwalmahesh](https://github.com/deshwalmahesh) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-research/maxim/blob/master/colab_inference_demo.ipynb)
