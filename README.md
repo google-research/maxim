@@ -34,6 +34,7 @@ Google Research, University of Texas at Austin
 
 **News**:
 
+- Jan 8, 2023: Released a pytorch implementation. Check it out here: [maxim-pytorch](https://github.com/vztu/maxim-pytorch/tree/main/maxim_pytorch).
 - Oct 21, 2022: MAXIM models have been ported to TensorFlow by [@sayakpaul](https://github.com/sayakpaul). Check it out here: [maxim-tf](https://github.com/sayakpaul/maxim-tf). He also created a couple of Hugging Face Spaces to allow users to quickly try out the different models:
   * [Denoising](https://huggingface.co/spaces/sayakpaul/sidd-denoising-maxim)
   * [Low-light enhancement](https://huggingface.co/spaces/sayakpaul/lol-enhancement-maxim)
