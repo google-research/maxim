@@ -21,8 +21,8 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2201.02973)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-research/maxim/blob/master/colab_inference_demo.ipynb)
-[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://docs.google.com/presentation/d/136JtmujpH0zoKYn-zAjuVg5XQ-mwGaQi5giEvMVyOqQ/edit?usp=sharing)
-[![Poster](https://img.shields.io/badge/Poster-Slide-87CEEB)](https://docs.google.com/presentation/d/1uteitiZnrhuBvdneWjye7DJEP3iyQgLThT_As8Fjtig/edit?usp=sharing)
+[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://docs.google.com/presentation/d/1NKT0PZrpmsCZTdgvsZztfNUJJ9Bvlr1r/edit?usp=sharing&ouid=103274492054041370194&rtpof=true&sd=true)
+[![Poster](https://img.shields.io/badge/Poster-Slide-87CEEB)](https://docs.google.com/presentation/d/1fd73qn_8Ymc5okFttQ3vzQm1SABbIeoI/edit?usp=sharing&ouid=103274492054041370194&rtpof=true&sd=true)
 
 This repo hosts the official implementation of the MAXIM models: 
 
